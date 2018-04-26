@@ -1,0 +1,27 @@
+.clock.container {
+  max-width: 260px;
+  padding: 0;
+  margin: 0;
+  background-color: black;
+}
+
+.clock.container .col-sm {
+  flex-basis: 0;
+  font-size: 2rem;
+  font-weight: 400;
+  padding: 10px;
+  opacity: 0.6;
+  color: white;
+}
+
+.clock.container .col-sm.active {
+  color: white;
+  opacity: 1;
+}
+
+.clock.container .row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0;
+  margin: 0;
+}

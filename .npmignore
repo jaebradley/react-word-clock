@@ -1,0 +1,16 @@
+node_modules/**
+
+src/**
+test/**
+coverage/**
+
+npm-debug.log
+*.test.js
+setupTest.js
+
+.DS_Store
+.eslintcache
+.travis.yml
+.babelrc
+.eslintignore
+.eslintrc
